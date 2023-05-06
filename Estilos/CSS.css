@@ -1,0 +1,174 @@
+html{
+    scroll-behavior: smooth ;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial Narrow;
+    text-align: center;
+    color: whitesmoke;
+}
+
+header{
+    top: 0;
+    height:  120px ;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    background-image: url( "../Imagens/bg.svg" );
+    z-index: 1;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: moccasin ;
+    font-size:  1.25rem ;
+    line-height:  1.5rem ;
+}
+
+h1{
+    width: 70%;
+    font-size:  2.5rem ;
+}
+img{
+    width: 100%;
+}
+main{
+    position: absolute;
+    top: 120px ;
+    background:  radial-gradient(circle,  rgb(139, 69, 19), rgb(205, 133, 63)) ;
+}
+h2{
+    margin: 0;
+    font-size: 2rem ;
+    text-shadow:  3px 3px rgb(160, 82, 45) ;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content:  space-around ;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 10px auto ;
+    box-sizing: border-box;
+}
+.galeria{
+    border-radius:  50%;
+    width:  30% ;
+    padding: 10px;
+}
+#ag, #ing{
+    padding: 150px;
+}
+.item_end{
+    background-color: lightyellow ;
+    color:  sienna ;
+    width:  80% ;
+    margin:  15px ;
+    border-radius:  4% ;
+}
+.item_end{
+    border-radius:  4% ;
+}
+h3{
+    text-transform:  uppercase ;
+    color:  chocolate ;
+}
+h4{
+    margin: 0;
+    font-size: 1.5rem ;
+    color:  brown ;
+}
+p{
+    font-weight:  bold ;
+}
+form{
+    display: flex;
+    justify-content: space-around ;
+    flex-wrap: wrap;
+    padding:  20px ;
+    margin:  50px auto ;
+}
+label,#qtd, #cpf, .botao{
+    font-size: 1.25rem ;
+    padding:  5px ;
+    border-radius: 4px ;
+    width: 100% ;
+}
+#qtd, #cpf, .botao{
+    font-family: inherit;
+    text-align: center;
+    border: none;
+    margin-bottom: 20px;
+}
+label,  .botao{
+    background-color:  rgb(255, 140, 0) ;
+    color:  whitesmoke ;
+}
+@media (mini-width: 768px ){
+    header{
+        height: 70px ;
+    }
+    ul{
+        width:  55% ;
+    }
+    li{
+        30% 
+    }
+    h1{
+        width:  45% ;
+        font-size: 3rem ;
+    }
+    h2{
+        font-size:  2.5rem ;
+    }
+    a{
+        font-size:  1.5rem ;
+    }
+    main{
+        top: 70px;
+    }
+    .galeria{
+        width:  16% ;
+        padding: 30px ;
+        transition: border-radius 2s ;
+    }
+    .galeria:hover{
+        border-radius:  20% ;
+    }
+    .item_agenda{
+        width:  25% ;
+    }
+    form{
+        width: 50% ;
+        margin-bottom: 160px;
+    }
+    label{
+        width: 40% ;
+        margin-bottom: 20px;
+    }
+    #qtd, #cpf, .botao{
+        width:  50% ;
+    }
+    .botao:hover{
+        background-color: rgb(136, 70, 20) ;
+    }
+    
+
+}
+
+
+
